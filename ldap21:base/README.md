@@ -9,11 +9,17 @@ Podeu trobar la documentació del mòdul a [ASIX-M06](https://sites.google.com/s
 ASIX M06-ASO Escola del treball de barcelona
 
 
-Repositori de prova d'instal·lació inicial:
-  * slapd.conf
-  * organitzacio-edt.org.ldif
-  * usuaris-edt.org.ldif
-  * usuaris-edt.org.ldif
- 
+ * **edtasixm06/ldap21:base** Servidor LDAP base inicial amb la base de dades edt.org
+
+```
+docker network create hisx2
+docker build -t ldap21:base .
+
+docker run --rm --name ldap.edt.org -h ldap.edt.org --net hisx2 -d ldap21:base
+
+docker ps
+
+ldapsearch -x -LLL -h ldap.edt.org -b 'dc=edt,dc=org'
+``` 
 
 
