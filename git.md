@@ -34,6 +34,5 @@ git remote -v
 
 ```
 # Des de la mateixa sessió on s'ha fet el eval per carregar ssh-agent
-
 git add .; git commit -m "prova" ; git push
 ```
