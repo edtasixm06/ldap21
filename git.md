@@ -9,7 +9,7 @@ Procediment:
  * [ Verificar l'accés via SSH ]
  * [ Verificar que l'accés és per SSH i no HTTP ]
  * [ Si cal, establir remote usant SSH ]
- * Accedir al repositori **desde la sessió amb ssh-agent**
+ * Accedir al repositori desde la sessió amb *ssh-agent*
 
 ### Ordres:
 ```
