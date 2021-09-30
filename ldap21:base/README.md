@@ -13,9 +13,9 @@ ASIX M06-ASO Escola del treball de barcelona
 
 ```
 docker network create hisx2
-docker build -t ldap21:base .
+docker build -t edtasixm06/ldap21:base .
 
-docker run --rm --name ldap.edt.org -h ldap.edt.org --net hisx2 -d ldap21:base
+docker run --rm --name ldap.edt.org -h ldap.edt.org --net hisx2 -d edtasixm06/ldap21:base
 
 docker ps
 
