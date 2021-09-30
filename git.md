@@ -1,7 +1,7 @@
 # Repàs accés GIT via SSH Keys
 ## @edt ASIX M06-ASO Curs 2021-2022
 
-Procediment:
+### Procediment:
  * Generar clau SSH
  * Copiar la clau pública dins el GIT (settings/SSH & GPG Keys)
  * Activar *ssh-agent*
