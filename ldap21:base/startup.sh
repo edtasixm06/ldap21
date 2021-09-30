@@ -1,6 +1,8 @@
 #! /bin/bash
 
-apt-get -y install slapd
+# export DEBIAN_FRONTEND=noninteractive
+# apt-get -y install slapd
+
 rm -rf /etc/ldap/slapd.d/*
 rm -rf /var/lib/ldap/*
 slaptest -f /opt/docker/slapd.conf -F /etc/ldap/slapd.d
