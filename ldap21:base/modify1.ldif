@@ -25,4 +25,9 @@ delete: homephone
 add: description
 description: els pericos aquest any a la xampions
 
+dn: cn=Perico Pou,ou=usuaris,dc=edt,dc=org
+changetype: modrdn
+newrdn: cn=Pererico  Pou
+deleteoldrdn: 1
+
 
