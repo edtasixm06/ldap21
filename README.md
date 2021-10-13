@@ -4,3 +4,7 @@
 ### Ldap servers:
 
  * **edtasixm06/ldap21:base** Server bàsic ldap, amb base de dades edt.org.
+
+ * **edtasixm06/ldap21:editat** Imatge base amb modificacions: dn amb uid.
+
+
