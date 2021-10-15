@@ -1,0 +1,12 @@
+dn: uid=ramon,ou=usuaris,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: x-futbolista
+cn: ramon ferrer
+sn: ramon
+x-lonom: dembele
+x-equip: barca
+x-lesionat: FALSE
+mail: ramon@edt.org
+homephone: 123456
+
+

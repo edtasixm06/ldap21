@@ -15,6 +15,11 @@ ASIX M06-ASO Escola del treball de barcelona
    * futbolistaA.schema Derivat de inetorgPerson, structural, injectat dades
      de dades-futbolA.ldif.
 
+   * futbolistaB.schema. Structural derivat de TOP.
+
+   * futbolistaC.schema. Auxiliary.
+
+
 ```
 $ docker run --rm --name ldap.edt.org -h ldap.edt.org --net 2hisix          -p 389:389 -it edtasixm06/ldap21:schema /bin/bash
 
